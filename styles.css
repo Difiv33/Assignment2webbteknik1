@@ -55,11 +55,6 @@ h1 {
     list-style: none;
 }
 
-.menu ul {
-    margin-top: auto;
-    padding: 0 2rem 0 0;
-
-}
 
 .menu a {
     color: white;
@@ -165,7 +160,6 @@ h3 {
 #Qualifications {
     display: flex;
     justify-self: center;
-    box-sizing: border-box;
     width: 100%;
     max-width: 700px;
     height: 100px;
@@ -178,9 +172,14 @@ h3 {
 }
 
 #listOfQualifications {
-    display: flexbox;
-
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    ;
 }
+
+#listOfQualifications p {}
 
 /* 
 * The section "My contact info" begins
@@ -292,7 +291,6 @@ h3 {
     align-content: center;
 }
 
-
 /* 
 * Footer begins
 */
@@ -322,10 +320,6 @@ footer {
     margin-bottom: -20px;
 }
 
-/*
-* Responsive design: desktop-first.
-* Base styles target large screens, media queries (max-width) adapt for smaller ones.
-*/
 @media (max-width: 1000px) {
 
     .menu ul {
@@ -335,7 +329,6 @@ footer {
 
     .menu a {
         font-size: x-large;
-        flex-wrap: wrap;
         margin-right: 1rem;
     }
 
@@ -385,7 +378,6 @@ footer {
 
     .menu a {
         font-size: x-large;
-        flex-wrap: wrap;
         margin-right: 0rem;
     }
 }
@@ -395,7 +387,6 @@ footer {
 
     .menu a {
         font-size: large;
-        flex-wrap: wrap;
         margin-right: 0rem;
     }
 
@@ -409,7 +400,6 @@ footer {
 
     .menu a {
         font-size: small;
-        flex-wrap: wrap;
         margin-right: 0rem;
     }
 
