@@ -131,6 +131,12 @@ h2 {
     flex-wrap: wrap;
 }
 
+#myProjects p {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
 .project {
     text-align: center;
 }
@@ -210,10 +216,8 @@ h3 {
     overflow-wrap: anywhere;
 }
 
-#contact p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#contactText {
+    text-align: center;
     font-size: x-large;
     font-weight: bold;
 }
