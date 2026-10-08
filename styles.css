@@ -35,7 +35,6 @@ h1 {
     font-size: xxx-large;
     margin-left: 2%;
     margin-top: auto;
-    justify-content: left;
 }
 
 .title {
@@ -146,7 +145,7 @@ h2 {
 }
 
 .project img:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 h3 {
@@ -183,7 +182,6 @@ h3 {
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    ;
 }
 
 #listOfQualifications p {
@@ -212,10 +210,12 @@ h3 {
     overflow-wrap: anywhere;
 }
 
-#contact h3 {
+#contact p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #contactImages {
@@ -230,7 +230,7 @@ h3 {
     max-width: 100%;
     height: auto;
     border-radius: 30%;
-    transform: skew(10deg, 0);
+    transform: skew(3deg, 0);
 }
 
 #contactIDName {
@@ -314,9 +314,6 @@ h3 {
 */
 footer {
     text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .footer1 {
@@ -339,12 +336,6 @@ footer {
 }
 
 @media (max-width: 1200px) {
-
-    .menu ul {
-        gap: 0.5rem 1rem;
-        flex-wrap: wrap
-    }
-
     .menu a {
         font-size: large;
         margin-right: 1rem;
