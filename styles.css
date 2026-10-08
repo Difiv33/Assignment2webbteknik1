@@ -167,7 +167,7 @@ h3 {
 /* 
 * The section "My Qualifications" begins
 */
-#Qualifications {
+#qualifications {
     display: flex;
     justify-self: center;
     width: 100%;
@@ -177,7 +177,7 @@ h3 {
     background-image: url(images/qualificationsBanner.png);
 }
 
-#QualificationsContent h3 {
+#qualificationsContent h3 {
     margin-top: -10px;
 }
 
@@ -347,7 +347,6 @@ footer {
 
     h1 {
         font-size: xx-large;
-        align-content: center;
     }
 
     #author {
@@ -359,10 +358,6 @@ footer {
 
     #nav {
         grid-template-columns: minmax(0, 1fr) auto;
-    }
-
-    .title {
-        justify-self: start;
     }
 
 }
@@ -400,12 +395,10 @@ footer {
 
     .menu a {
         font-size: small;
-        margin-right: 0rem;
     }
 
     h1 {
         font-size: large;
-        align-content: center;
     }
 }
 
@@ -413,12 +406,10 @@ footer {
 
     .menu a {
         font-size: x-small;
-        margin-right: 0rem;
     }
 
     h1 {
         font-size: x-small;
-        align-content: center;
     }
 }
 
@@ -426,11 +417,9 @@ footer {
 
     .menu a {
         font-size: xx-small;
-        margin-right: 0rem;
     }
 
     h1 {
         font-size: xx-small;
-        align-content: center;
     }
 }
